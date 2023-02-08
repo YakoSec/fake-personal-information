@@ -1,16 +1,19 @@
-# Coder = Mr. Yako
-# Instagram = @YakoSec
+# Coder: Mr. Yako
+# Instagram: @YakoSec
 # GitHub : @YakoSec
 
 import random
-
 import colorama
-from colorama import Fore,Back, Style
+from colorama import Fore, Back, Style
 colorama.init()
 
-print(Fore.YELLOW)
-print("Coder: Mr. Yako \nInstagram: @YakoSec")
-
-x = random.randint(1000000000, 100000000000)
+from faker import Faker
+fake = Faker()
+print(Fore.LIGHTBLUE_EX)
+print("Name: ",fake.name())
+print(Fore.GREEN)
+print("EMail: ",fake.email())
+print(Fore.MAGENTA)
+print("Country: ",fake.country())
 print(Fore.RED)
-print("TC Kimlik numaranız oluşturuldu:" , x)
+print("Profile: ",fake.profile())
