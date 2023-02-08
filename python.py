@@ -1,11 +1,16 @@
-# Mr. Yako
-# Instagram: @YakoSec
-# Fake information generator.
+# Coder = Mr. Yako
+# Instagram = @YakoSec
+# GitHub : @YakoSec
 
-from faker import Faker
-fake = Faker()
+import random
 
-print(fake.name())
-print(fake.email())
-print(fake.country())
-print(fake.profile())                                                        
+import colorama
+from colorama import Fore,Back, Style
+colorama.init()
+
+print(Fore.YELLOW)
+print("Coder: Mr. Yako \nInstagram: @YakoSec")
+
+x = random.randint(1000000000, 100000000000)
+print(Fore.RED)
+print("TC Kimlik numaranız oluşturuldu:" , x)
