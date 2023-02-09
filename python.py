@@ -1,6 +1,7 @@
 # Coder: Mr. Yako
 # Instagram: @YakoSec
 # GitHub : @YakoSec
+# Telegram: @YakoSec
 
 import random
 import colorama
@@ -11,7 +12,7 @@ from faker import Faker
 fake = Faker()
 
 print(Fore.YELLOW)
-print("Coder: Mr. Yako \nInstagram: @YakoSec \nGitHub: @YakoSec")
+print("Coder: Mr. Yako \nInstagram: @YakoSec \nTelegram: @YakoSec \nGitHub: @YakoSec")
 
 print(Fore.LIGHTBLUE_EX)
 print("Name: ",fake.name())
