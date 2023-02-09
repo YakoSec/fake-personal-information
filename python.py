@@ -9,6 +9,10 @@ colorama.init()
 
 from faker import Faker
 fake = Faker()
+
+print(Fore.YELLOW)
+print("Coder: Mr. Yako \nInstagram: @YakoSec \nGitHub: @YakoSec")
+
 print(Fore.LIGHTBLUE_EX)
 print("Name: ",fake.name())
 print(Fore.GREEN)
